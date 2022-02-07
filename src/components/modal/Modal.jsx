@@ -1,10 +1,14 @@
 import React, { useState } from "react";
-import { Modal, Button } from "react-bootstrap";
+import { Modal, Button, Row, Col } from "react-bootstrap";
 import {
   ModalTitle,
   ModalHeader,
   TextContainer,
   ModalBody,
+  ButtonLink,
+  ButtonRoute,
+  ModalFooter,
+  GreetingContainer,
 } from "./modal.styles";
 
 const RouteModal = (props) => {
@@ -16,11 +20,24 @@ const RouteModal = (props) => {
       centered
     >
       <ModalHeader>
-        <ModalTitle onClick={props.onHide}>cerrar</ModalTitle>
+        <ButtonLink variant="link" onClick={props.onHide}>
+          cerrar
+        </ButtonLink>
       </ModalHeader>
       <ModalBody>
-        <TextContainer>Hey {props.data}</TextContainer>
+        <TextContainer>Hey {props.data},</TextContainer>
+        <GreetingContainer>¿Cuál es tu rumbo, aluxioner?</GreetingContainer>
       </ModalBody>
+      <ModalFooter>
+        <Row>
+          <Col>
+            <ButtonRoute variant="outline-dark">Casa</ButtonRoute>
+          </Col>
+          <Col>
+            <ButtonRoute variant="outline-dark">Aluxion</ButtonRoute>
+          </Col>
+        </Row>
+      </ModalFooter>
     </Modal>
   );
 };

@@ -1,110 +1,146 @@
 [
   {
-    "id": "1",
+    "id": 1,
     "name": "Oscar",
     "position": "Frontend Developer",
-    "imageUrl": "https://i.ibb.co/XDWC23Q/oscar.jpg"
+    "imageUrl": "https://i.ibb.co/XDWC23Q/oscar.jpg",
+    "home": 59,
+    "aluxion": 85
   },
   {
-    "id": "2",
+    "id": 2,
     "name": "Amalia",
     "position": "Product Owner",
-    "imageUrl": "https://i.ibb.co/QdxdTph/amalia.jpg"
+    "imageUrl": "https://i.ibb.co/QdxdTph/amalia.jpg",
+    "home": 261,
+    "aluxion": 288
   },
   {
-    "id": "3",
+    "id": 3,
     "name": "Alba",
     " position": "Project Manager",
-    "imageUrl": "https://i.ibb.co/KFCS0nB/alba.jpg"
+    "imageUrl": "https://i.ibb.co/KFCS0nB/alba.jpg",
+    "home": 59,
+    "aluxion": 85
   },
   {
-    "id": "4",
+    "id": 4,
     "name": "Soraya",
     "position": "UX/UI Designer",
-    "imageUrl": "https://i.ibb.co/SVxNRz0/soraya.jpg"
+    "imageUrl": "https://i.ibb.co/SVxNRz0/soraya.jpg",
+    "home": 189,
+    "aluxion": 806
   },
   {
-    "id": "5",
+    "id": 5,
     "name": "Sandra",
     "position": "Frontend Developer",
-    "imageUrl": "https://i.ibb.co/y6CPpXn/sandra.jpg"
+    "imageUrl": "https://i.ibb.co/y6CPpXn/sandra.jpg",
+    "home": 3378,
+    "aluxion": 85
   },
   {
-    "id": "6",
+    "id": 6,
     "name": "Pamela",
     "position": "Backend Developer",
-    "imageUrl": "https://i.ibb.co/RjBnGV3/pamela.jpg"
+    "imageUrl": "https://i.ibb.co/RjBnGV3/pamela.jpg",
+    "home": 189,
+    "aluxion": 806
   },
   {
-    "id": "7",
+    "id": 7,
     "name": "Natalia",
     "position": "Backend Developer",
-    "imageUrl": "https://i.ibb.co/Csk8vbQ/natalia.jpg"
+    "imageUrl": "https://i.ibb.co/Csk8vbQ/natalia.jpg",
+    "home": 681,
+    "aluxion": 85
   },
   {
-    "id": "8",
+    "id": 8,
     "name": "Mauricio",
     "position": "Q&A/Tester",
-    "imageUrl": "https://i.ibb.co/QDz59Bh/mauricio.jpg"
+    "imageUrl": "https://i.ibb.co/QDz59Bh/mauricio.jpg",
+    "home": 3378,
+    "aluxion": 2710
   },
   {
-    "id": " 9",
+    "id": 9,
     "name": "Julieta",
     "position": "Q&A/Tester",
-    "imageUrl": "https://i.ibb.co/XSXFZGf/julieta.jpg"
+    "imageUrl": "https://i.ibb.co/XSXFZGf/julieta.jpg",
+    "home": 1688,
+    "aluxion": 288
   },
   {
-    "id": "10",
+    "id": 10,
     "name": "Jorge",
     "position": "PHP Developer",
-    "imageUrl": "https://i.ibb.co/GvvPv3B/jorge.jpg"
+    "imageUrl": "https://i.ibb.co/GvvPv3B/jorge.jpg",
+    "home": 681,
+    "aluxion": 288
   },
   {
-    "id": "11",
+    "id": 11,
     "name": "Jennifer",
     "position": "WordPress Developer",
-    "imageUrl": "https://i.ibb.co/6ZX6KgM/jennifer.jpg"
+    "imageUrl": "https://i.ibb.co/6ZX6KgM/jennifer.jpg",
+    "home": 3378,
+    "aluxion": 494
   },
   {
-    "id": "12",
+    "id": 12,
     "name": "Jackeline",
     "position": "System Admin",
-    "imageUrl": "https://i.ibb.co/56qjGVm/jackeline.jpg"
+    "imageUrl": "https://i.ibb.co/56qjGVm/jackeline.jpg",
+    "home": 2908,
+    "aluxion": 1229
   },
   {
-    "id": "13",
+    "id": 13,
     "name": "Eduardo",
     "position": "Project Manager",
-    "imageUrl": "https://i.ibb.co/HDFz2XF/eduardo.jpg"
+    "imageUrl": "https://i.ibb.co/HDFz2XF/eduardo.jpg",
+    "home": 1688,
+    "aluxion": 2710
   },
   {
-    "id": "14",
+    "id": 14,
     "name": "Cristina",
     "position": "UX/UI Designer",
-    "imageUrl": "https://i.ibb.co/VCvJNVZ/cristina.jpg"
+    "imageUrl": "https://i.ibb.co/VCvJNVZ/cristina.jpg",
+    "home": 59,
+    "aluxion": 85
   },
   {
-    "id": "15",
+    "id": 15,
     "name": "Cesar",
     "position": "Talent Acquisition",
-    "imageUrl": "https://i.ibb.co/ZcCRzbc/cesar.jpg"
+    "imageUrl": "https://i.ibb.co/ZcCRzbc/cesar.jpg",
+    "home": 189,
+    "aluxion": 806
   },
   {
-    "id": "16",
+    "id": 16,
     "name": "Bella",
     "position": "Talent Acquisition",
-    "imageUrl": "https://i.ibb.co/cbqbQr2/bella.jpg"
+    "imageUrl": "https://i.ibb.co/cbqbQr2/bella.jpg",
+    "home": 189,
+    "aluxion": 85
   },
   {
-    "id": "17",
+    "id": 17,
     "name": "Ana",
     "position": "Backend Developer",
-    "imageUrl": "https://i.ibb.co/zRKkK9q/ana.jpg"
+    "imageUrl": "https://i.ibb.co/zRKkK9q/ana.jpg",
+    "home": 2908,
+    "aluxion": 288
   },
   {
-    "id": "18",
+    "id": 18,
     "name": "Beatriz",
     "position": "Content Creator",
-    "imageUrl": "https://i.ibb.co/r0pq49V/beatriz.jpg"
+    "imageUrl": "https://i.ibb.co/r0pq49V/beatriz.jpg",
+    "home": 1688,
+    "aluxion": 2710
   }
 ]

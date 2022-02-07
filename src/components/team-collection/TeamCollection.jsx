@@ -12,36 +12,35 @@ import RouteModal from "../modal/Modal";
 export const TeamCollection = () => {
   const [modalShow, setModalShow] = useState(false);
   const [name, setName] = useState("");
+  const handleName = (name) => {
+    setName(name);
+    setModalShow(true);
+  };
   return (
-    <>
-      {" "}
-      <Container>
-        <Row>
-          {team_data.map((item) => (
-            <Col key={item.id}>
-              <div style={{ width: "175px" }}>
-                <ImageContainer>
-                  <LinkContainer onClick={() => setModalShow(true)}>
-                    <BackgroundImage
-                      style={{ backgroundImage: `url(${item.imageUrl})` }}
-                    />
-                  </LinkContainer>
-                </ImageContainer>
-                <h4>{item.name}</h4>
-                <p>{item.position}</p>
-              </div>
-            </Col>
-          ))}
-        </Row>
-      </Container>
-      {team_data.map((item) => (
-        <RouteModal
-          data={item.name}
-          show={modalShow}
-          onHide={() => setModalShow(false)}
-        />
-      ))}
-    </>
+    <Container>
+      <Row>
+        {team_data.map((item) => (
+          <Col key={item.id}>
+            <div style={{ width: "175px" }}>
+              <ImageContainer>
+                <LinkContainer onClick={() => handleName(item.name)}>
+                  <BackgroundImage
+                    style={{ backgroundImage: `url(${item.imageUrl})` }}
+                  />
+                </LinkContainer>
+              </ImageContainer>
+              <h4>{item.name}</h4>
+              <p>{item.position}</p>
+            </div>
+          </Col>
+        ))}
+      </Row>
+      <RouteModal
+        data={name}
+        show={modalShow}
+        onHide={() => setModalShow(false)}
+      />
+    </Container>
   );
 };
 
